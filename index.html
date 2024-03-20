@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartelera de Cine</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7fafb;
+        }
+    
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+    
+        h1 {
+            text-align: center;
+            color: #333;
+            width: 100%;
+        }
+    
+        /* Estilos para las películas */
+        .movie {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            animation: fadeIn 1s ease-out;
+            transition: transform 0.3s ease;
+        }
+    
+        .movie:hover {
+            transform: translateY(-5px);
+        }
+    
+        .movie img {
+            max-width: 100%;
+            height: auto;
+        }
+    
+        .movie h2 {
+            color: #333;
+            margin-top: 10px;
+        }
+    
+        .movie p {
+            color: #666;
+        }
+    
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    
+        /* Propiedades adicionales solicitadas */
+    
+        /* Efecto de transformación 2D */
+        .movie:hover {
+            transform: scale(1.05);
+        }
+    
+        /* Efecto de transformación 3D */
+        .movie:nth-child(odd) {
+            transform-style: preserve-3d;
+            perspective: 1000px;
+        }
+    
+        .movie:nth-child(odd) img {
+            transition: transform 0.5s;
+        }
+    
+        .movie:nth-child(odd):hover img {
+            transform: rotateY(180deg);
+        }
+    
+        /* Transición */
+        .movie img {
+            transition: opacity 0.3s ease-in-out;
+        }
+    
+        .movie:hover img {
+            opacity: 0.7;
+        }
+    
+        /* Animación */
+        @keyframes slideInFromLeft {
+            0% {
+                transform: translateX(-100%);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+    
+        .movie:nth-child(2n) {
+            animation: slideInFromLeft 1s ease-out;
+        }
+    </style>
+    </head>
+    <body>
+    
+
+        <link rel="stylesheet" href="estilos.css">
+
+        <!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cine Acme - Interfaz de Usuario</title>
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Bienvenido a Cine Germayoli</h1>
+    
+    <a href="cartelera.html" class="boton">Ver Cartelera</a>
+    <a href="reservas.html" class="boton">Hacer Reserva</a>
+    <a href="comentarios.html" class="boton">Dejar Comentarios</a>
+</div>
+
+</body>
+</html>
+
+    </head>
+    <body>
+    
+    
+    <h4>🎬 ¡Prepárense para vivir una experiencia cinematográfica única! En el Cine Germayoli, 
+                   cada proyección es un viaje lleno de emoción y entretenimiento para toda la familia.</h4>
+    
+
+    <div class="container">
+        <h1>Cartelera de Cine</h1>
+
+        <!-- Película 1 -->
+        <div class="movie">
+            <img src="spiderman2/spiderman2.jpg" style="width: 500px">
+            <h2>Spider-Man: Sin Rumbo a Casa</h2>
+            <p>¡Prepárate para un viaje emocionante con el trepamuros favorito de todos!</p>
+        </div>
+        
+        <!-- Película 2 -->
+        <div class="movie">
+            <img src="batman/batman.jpeg" style="width: 500px">
+            <h2>El Regreso del Caballero Oscuro</h2>
+            <p>El legendario Batman regresa para enfrentarse a su mayor desafío hasta la fecha.</p>
+        </div>
+
+        <!-- Película 3 -->
+        <div class="movie">
+            <img src="favoritos/favoritos.jpg" style="width: 500px">
+            <h2>Los Backyardigans</h2>
+            <p>¡Aventuras mágicas y diversión asegurada para los más pequeños!</p>
+        </div>
+
+
+
+        
+    </body>
+    </html>
+    
+    
+
+</body>
+</html>
